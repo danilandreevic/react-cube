@@ -1,0 +1,28 @@
+.container {
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cube-image {
+    width: 200px;
+    height: 200px;
+}
+
+.cube-button{
+    width: 120px;
+    height: 40px;
+    background: green;
+    border-radius: 20px;
+}
+.cube-button:hover{
+    transition: 0.3s;
+    background: #7c1919;
+    cursor: pointer;
+
+}
